@@ -1,0 +1,17 @@
+.body {
+background-image: url("hakon-sataoen-30528-unsplash.jpg");
+
+  }
+
+.background-image {
+  object-fit: cover;
+  object-position: 50% 100%;
+  height: 420px;
+  width: 100%;
+  filter: brightness(90%) opacity(80%);
+}
+
+p {
+  color: #007bff;
+  font-size: large;
+}
