@@ -1,17 +1,228 @@
-.body {
-background-image: url("hakon-sataoen-30528-unsplash.jpg");
+div nav.custom-navbar-text.bg-light.navbar-light#nav{
+  background-color: white !important;
+  padding-left: 5px;
+  padding-right: 5px;
+}
 
+.custom-navbar-text a {
+  font-family: "Calibri", serif;
+  font-size: 20px;
+  color: black;
+  padding-right: 55px;
+}
+
+.row.no-gutters {
+  text-align: center;
+}
+
+@media (min-width: 560px) {
+  .col .background-image {
+    background-color: #adb5bd;
+    color: black;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    display: block;
+    height: 500px;
+    padding: 0;
+    z-index: 1;
   }
+}
 
-.background-image {
-  object-fit: cover;
-  object-position: 50% 100%;
-  height: 420px;
-  width: 100%;
-  filter: brightness(90%) opacity(80%);
+@media (min-width: 560px){
+  .container {
+    max-width: 1440px;
+  }
+}
+
+@media (min-width: 560px) {
+  .inner-col-container {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 360px) {
+  .inner-col-container-img {
+    background-image: url("BACKGROUND_PHOTO_OPTIONS/white-1866105_1920.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: black;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    display: block;
+    height: 500px;
+    z-index: -1;
+    opacity: 0.2;
+  }
+}
+
+h2 {
+margin: 5px;
+color: black;
+font-family: "Calibri", serif;
+padding-bottom: 30px;
+}
+
+@media (min-width: 560px) {
+  .main-title {
+    font-size: 50px;
+    margin: 5px;
+    color: black;
+    font-family: "Georgia", "Lucida Fax", serif;
+    padding-bottom: 30px;
+  }
 }
 
 p {
-  color: #007bff;
-  font-size: large;
+color: black;
+font-size: 20px;
+font-family: "Palatino Linotype", "Lucida Fax", serif;
 }
+
+.btn {
+  margin-top: 20px;
+}
+
+.testimonials h2 {
+  padding-top: 35px;
+  padding-bottom: 25px;
+  text-align: center;
+  font-family: "Palatino Linotype", "Lucida Fax", serif;
+}
+
+@media (min-width: 760px){
+  .card-deck {
+    max-width: 1438px;
+  }
+}
+
+/*.inner-services-container {*/
+  /*padding-top: 35px;*/
+  /*padding-bottom: 25px;*/
+  /*font-family: "Calibri", serif;*/
+  /*color: black;*/
+/*}*/
+
+/*div.third {*/
+  /*background: rgba(76, 37, 28, 0.6);*/
+/*}*/
+
+/*@media (min-width: 360px) {*/
+  /*.inner-services-img {*/
+    /*background-image: url("BACKGROUND_PHOTO_OPTIONS/sarah-dorweiler-211779_3-unsplash.jpg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-attachment: inherit;*/
+    /*background-clip: content-box;*/
+    /*background-position: center;*/
+    /*overflow: hidden;*/
+    /*width: 100%;*/
+    /*display: block;*/
+    /*height: 500px;*/
+    /*margin-top: 35px;*/
+    /*z-index: -1;*/
+  /*}*/
+/*}*/
+
+.services-title {
+  padding-top: 35px;
+  padding-bottom: 25px;
+  font-family: "Palatino Linotype", "Lucida Fax", serif;
+}
+
+/*.services-list {*/
+  /*font-family: "Calibri", serif;*/
+  /*font-size: 20px;*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
+/*.testimonial-img-1 {*/
+  /*position: relative;*/
+  /*width: 350px;*/
+  /*display: block;*/
+  /*height: 40%;*/
+  /*padding: 0;*/
+/*}*/
+
+
+
+/*.container {*/
+  /*display: block;*/
+/*}*/
+
+
+
+
+
+/*.header-container {*/
+  /*width: 100%;*/
+  /*display: inline-flex;*/
+  /*overflow: hidden;*/
+/*}*/
+
+/*.boxed-left{*/
+  /*border: 0;*/
+  /*width: 100%;*/
+  /*max-width: 800px;*/
+  /*left: 0;*/
+  /*right: 0;*/
+  /*position: relative;*/
+  /*font-size: 28px;*/
+  /*line-height: 1.25;*/
+  /*padding: 70px 15px;*/
+  /*top: 50%;*/
+  /*bottom: auto;*/
+  /*display: block;*/
+/*}*/
+
+
+/*.boxed-right{*/
+  /*border: 0;*/
+  /*width: 100%;*/
+  /*max-width: 800px;*/
+  /*left: 0;*/
+  /*right: 0;*/
+  /*position: relative;*/
+  /*font-size: 28px;*/
+  /*line-height: 1.25;*/
+  /*padding: 70px 15px;*/
+  /*top: 50%;*/
+  /*bottom: auto;*/
+  /*display: block;*/
+/*}*/
+
+
+/*.background-image {*/
+  /*height: 1000px;*/
+  /*position: absolute;*/
+  /*top: 0;*/
+  /*left: 0;*/
+  /*z-index: -1;*/
+/*}*/
+
+/*.site-header {*/
+  /*margin-top: inherit;*/
+  /*padding: 5px;*/
+  /*word-wrap: break-word;*/
+  /*position: relative;*/
+/*}*/
+
+
+
+
+
+/*.center {*/
+  /*margin: auto;*/
+  /*width: 20%;*/
+  /*padding: 30px;*/
+/*}*/
