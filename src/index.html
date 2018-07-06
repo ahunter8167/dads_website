@@ -1,40 +1,113 @@
-<!doctype html>
-<html class="no-js" lang="">
-
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <meta charset="UTF-8">
+  <title>Dan Pastrick - Medical Devices</title>
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
 <body>
-  <!--[if lte IE 9]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
+<div>
+  <nav class="navbar navbar-light bg-light custom-navbar-text" id="nav">
+    <a class="navbar-brand" href="#">
+      <!-- Dan's logo image -->
+      <img src="dan_co_logo.jpg" width="190" height="61" alt="dan pastrick & associates logo">
+    </a>
+    <a href="services.html">Services</a>
+    <a href="about.html">About</a>
+    <a href="https://danpastrick.com//">Blog</a>
+    <a href="contact.html">Contact Us</a>
+    <a href="faq.html">FAQs</a>
+  </nav>
+</div>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+<div>
+  <div class="row no-gutters custom-row-background-img" id="row">
+    <div class="col">
+      <img src="BACKGROUND_PHOTO_OPTIONS/rawpixel-684806-unsplash.jpg" class="col background-image" alt="image name tba">
+    </div>
+    <div class="col">
+      <div class="inner-col-container-img"></div>
+      <div class="inner-col-container">
+        <div class="text-center">
+          <h2 class="main-title">Coaching for medical device engineers. Lorem ipsum dolor sit amet.</h2>
+          <p><b>The goal:</b> to get you to your desired career path. <br>We're here to help you achieve these goals and get you performing
+            to the capacity that you're meant to be.</p>
+          <div class="center">
+            <button type="button" class="btn btn-primary">Contact Us</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="testimonials" id="page-blocks">
+    <h2>Testimonials</h2>
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="BACKGROUND_PHOTO_OPTIONS/malvestida-magazine-295603-unsplash.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Anna S.</h5>
+          <p class="card-text">Working with Dan has been an extreme pleasure. He helped me streamline my CV to show....</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="BACKGROUND_PHOTO_OPTIONS/malvestida-magazine-295603-unsplash.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Shannon P.</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis risus. Nulla pulvinar eleifend sem.
+            Quisque tincidunt scelerisque libero. Etiam bibendum elit eget erat. Curabitur vitae diam non enim vestibulum interdum.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="BACKGROUND_PHOTO_OPTIONS/malvestida-magazine-295603-unsplash.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Alexus M.</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis risus. Nulla pulvinar eleifend sem.
+            Quisque tincidunt scelerisque libero. Etiam bibendum elit eget erat. Curabitur vitae diam non enim vestibulum interdum.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="services">
+    <div class="text-lg-center">
+      <h2 class="services-title">Services</h2>
+    </div>
+
+
+    <div class="row">
+      <div class="col-4">
+        <div class="list-group" id="list-tab" role="tablist">
+          <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
+          <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="tab" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
+          <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="tab" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
+          <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
+        </div>
+      </div>
+      <div class="col-8">
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">Blah</div>
+          <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">Blah</div>
+          <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">Blah</div>
+          <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">Blah</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
   <script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script>
   <script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js" integrity="{{JQUERY_SRI_HASH}}" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
-</body>
 
+</div>
+
+
+</body>
 </html>

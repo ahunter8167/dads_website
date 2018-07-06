@@ -104,6 +104,8 @@
 
       $active.removeClass('in')
     }
+
+
   };
 
 
@@ -119,6 +121,7 @@
     })
   };
 
+
   $.fn.tab.Constructor = Tab;
 
 
@@ -131,7 +134,8 @@
       $(this).tab('show')
     })
   })
-
 }(window.jQuery);
+
+
 
 

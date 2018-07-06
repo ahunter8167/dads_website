@@ -5,20 +5,35 @@
   <title>Dan Pastrick - Medical Devices</title>
   <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="main.css">
+  <style>
+    .list-group ul {
+      padding-left: 0;
+    }
+
+    .list-group li {
+      list-style-type: none;
+    }
+    .list-group li.active a {
+      z-index: 2;
+      color: #fff;
+      background-color: #007bff;
+      border-color: #007bff;
+    }
+  </style>
 </head>
 
 <body>
 <div>
   <nav class="navbar navbar-light bg-light custom-navbar-text" id="nav">
     <a class="navbar-brand" href="#">
-    <!-- Dan's logo image -->
-    <img src="dan_co_logo.jpg" width="190" height="61" alt="dan pastrick & associates logo">
+      <!-- Dan's logo image -->
+      <img src="dan_co_logo.jpg" width="190" height="61" alt="dan pastrick & associates logo">
     </a>
-      <a href="services.html">Services</a>
-      <a href="about.html">About</a>
-      <a href="https://danpastrick.com//">Blog</a>
-      <a href="contact.html">Contact Us</a>
-      <a href="faq.html">FAQs</a>
+    <a href="services.html">Services</a>
+    <a href="about.html">About</a>
+    <a href="https://danpastrick.com//">Blog</a>
+    <a href="contact.html">Contact Us</a>
+    <a href="faq.html">FAQs</a>
   </nav>
 </div>
 
@@ -44,78 +59,84 @@
 
   <div class="testimonials" id="page-blocks">
     <h2>Testimonials</h2>
-  <div class="card-deck">
-    <div class="card">
-      <img class="card-img-top" src="BACKGROUND_PHOTO_OPTIONS/malvestida-magazine-295603-unsplash.jpg" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Anna S.</h5>
-        <p class="card-text">Working with Dan has been an extreme pleasure. He helped me streamline my CV to show....</p>
+    <div class="card-deck" id="card-deck-width">
+      <div class="card">
+        <img class="card-img-top" src="BACKGROUND_PHOTO_OPTIONS/wallpaper-for-facebook-profile-photo.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Andy S.</h5>
+          <p class="card-text">Working with Dan has been an extreme pleasure. He helped me streamline my CV to show....</p>
         </div>
-    </div>
-    <div class="card">
-      <img class="card-img-top" src="BACKGROUND_PHOTO_OPTIONS/malvestida-magazine-295603-unsplash.jpg" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Shannon P.</h5>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis risus. Nulla pulvinar eleifend sem.
-          Quisque tincidunt scelerisque libero. Etiam bibendum elit eget erat. Curabitur vitae diam non enim vestibulum interdum.</p>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="BACKGROUND_PHOTO_OPTIONS/wallpaper-for-facebook-profile-photo.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Steve P.</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis risus. Nulla pulvinar eleifend sem.
+            Quisque tincidunt scelerisque libero. Etiam bibendum elit eget erat. Curabitur vitae diam non enim vestibulum interdum.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="BACKGROUND_PHOTO_OPTIONS/wallpaper-for-facebook-profile-photo.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Alex M.</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis risus. Nulla pulvinar eleifend sem.
+            Quisque tincidunt scelerisque libero. Etiam bibendum elit eget erat. Curabitur vitae diam non enim vestibulum interdum.</p>
+        </div>
       </div>
     </div>
-    <div class="card">
-      <img class="card-img-top" src="BACKGROUND_PHOTO_OPTIONS/malvestida-magazine-295603-unsplash.jpg" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Alexus M.</h5>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis risus. Nulla pulvinar eleifend sem.
-          Quisque tincidunt scelerisque libero. Etiam bibendum elit eget erat. Curabitur vitae diam non enim vestibulum interdum.</p>
-        </div>
-    </div>
-  </div>
   </div>
 
   <div class="services">
-    <div class="text-lg-center">
+    <div class="text-lg-left">
       <h2 class="services-title">Services</h2>
     </div>
-
-
     <div class="row">
       <div class="col-4">
         <div class="list-group" id="list-tab" role="tablist">
-          <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
-          <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
-          <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
-          <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
+          <ul>
+            <li><a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="tab" href="#list-home" role="tab" aria-controls="home">Premium Management Package</a></li>
+            <li><a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="tab" href="#list-profile" role="tab" aria-controls="profile">Premium Pre-Management Package</a></li>
+            <li><a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="tab" href="#list-messages" role="tab" aria-controls="messages">Premium Engineering Package</a></li>
+            <li><a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-settings" role="tab" aria-controls="settings">Premium Online Job Search</a></li>
+          </ul>
         </div>
       </div>
       <div class="col-8">
         <div class="tab-content" id="nav-tabContent">
-          <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">...</div>
-          <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">...</div>
-          <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...</div>
-          <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
+          <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis risus. Nulla pulvinar eleifend sem. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis risus. Nulla pulvinar eleifend sem.</div>
+          <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">Nulla pulvinar eleifend sem.</div>
+          <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">Curabitur vitae diam non enim vestibulum interdum.</div>
+          <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">Etiam bibendum elit eget erat.</div>
         </div>
       </div>
     </div>
+  </div>
+
+  <div class="footer-container">
+    <div class="sit-info-container">
+      <div class="footer-logo">
+        <img src="dan_co_logo.jpg">
+      </div>
+      <div class="social-media-blog-icons">
+        <a href="https://www.linkedin.com/in/danpastrick/" target="_blank">
+        <img src="SOCIAL MEDIA ICONS/linkedin_button.png">
+        </a>
+        <a href="https://danpastrick.com/" target="_blank">
+        <img src="SOCIAL MEDIA ICONS/blog-icon.png">
+        </a>
+      </div>
+      <div class="footer-button">
+        <a href="index.html">
+        <button type="button" class="btn btn-primary btn-sm">Top</button>
+        </a>
+      </div>
+  </div>
+
+
+
+
 
   </div>
-  <!--<div class="rounded float-left">-->
-    <!--<div class="inner-services-img">-->
-      <!--<div class="third">-->
-        <!--<div class="inner-services-container">-->
-          <!--<div class="text-lg-left">-->
-            <!--<h2 class="services-title">Services</h2>-->
-            <!--<div class="text-left">-->
-              <!--<div class="services-list">-->
-                <!--<ul>-->
-                  <!--<li>Medical Device Coaching (Exclusively for medical device professionals)</li>-->
-                  <!--<li>Etiam bibendum elit eget erat.</li>-->
-                <!--</ul>-->
-              <!--</div>-->
-            <!--</div>-->
-          <!--</div>-->
-        <!--</div>-->
-      <!--</div>-->
-    <!--</div>-->
-  <!--</div>-->
 
 
 
@@ -123,10 +144,36 @@
 
 </div>
 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+<script src="src/js/plugins.js"></script>
+<script src="src/js/main.js"></script>
+
+
+
 
 </body>
 </html>
 
+
+<!--<div class="rounded float-left">-->
+<!--<div class="inner-services-img">-->
+<!--<div class="third">-->
+<!--<div class="inner-services-container">-->
+<!--<div class="text-lg-left">-->
+<!--<h2 class="services-title">Services</h2>-->
+<!--<div class="text-left">-->
+<!--<div class="services-list">-->
+<!--<ul>-->
+<!--<li>Medical Device Coaching (Exclusively for medical device professionals)</li>-->
+<!--<li>Etiam bibendum elit eget erat.</li>-->
+<!--</ul>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
 
 <!--<div class="col">-->
   <!--<div class="inner-col-container-img">-->

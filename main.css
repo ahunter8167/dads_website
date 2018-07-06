@@ -13,6 +13,7 @@ div nav.custom-navbar-text.bg-light.navbar-light#nav{
 
 .row.no-gutters {
   text-align: center;
+  padding-bottom: 45px;
 }
 
 @media (min-width: 560px) {
@@ -60,10 +61,11 @@ div nav.custom-navbar-text.bg-light.navbar-light#nav{
 }
 
 h2 {
-margin: 5px;
-color: black;
-font-family: "Calibri", serif;
-padding-bottom: 30px;
+  margin: 5px;
+  color: black;
+  font-family: "Calibri", serif;
+  padding-bottom: 30px;
+  font-size: 40px;
 }
 
 @media (min-width: 560px) {
@@ -77,9 +79,9 @@ padding-bottom: 30px;
 }
 
 p {
-color: black;
-font-size: 20px;
-font-family: "Palatino Linotype", "Lucida Fax", serif;
+  color: black;
+  font-size: 20px;
+  font-family: "Palatino Linotype", "Lucida Fax", serif;
 }
 
 .btn {
@@ -87,18 +89,104 @@ font-family: "Palatino Linotype", "Lucida Fax", serif;
 }
 
 .testimonials h2 {
-  padding-top: 35px;
+  padding-top: 55px;
   padding-bottom: 25px;
   text-align: center;
-  font-family: "Palatino Linotype", "Lucida Fax", serif;
 }
 
 @media (min-width: 760px){
   .card-deck {
     max-width: 1438px;
+    padding-bottom: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 
+
+.services {
+  position: relative;
+  padding-top: 55px;
+  margin-bottom: 25px;
+}
+
+
+.services:after {
+  content : "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("BACKGROUND_PHOTO_OPTIONS/white-1866105_1920.jpg");
+  width: 100%;
+  height: 100%;
+  opacity : 0.2;
+  z-index: -1;
+  margin-top: 45px;
+}
+
+
+.services-title {
+  padding-top: 25px;
+  padding-bottom: 30px;
+  padding-left: 95px;
+  font-family: "Calibri", serif;
+  margin-top: 15px;
+}
+
+@media (min-width: 760px) {
+  #list-tab {
+    padding-left: 95px;
+  }
+}
+
+@media (min-width: 760px) {
+  #nav-tabContent {
+    padding: 10px;
+    border-style: groove;
+    border-bottom-color: #adb5bd;
+    border-radius: 3px;
+    margin-right: 40px;
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 760px) {
+  .sit-info-container {
+    padding-top: 95px;
+    padding-left: 110px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    margin-top: 25px;
+  }
+}
+
+@media (min-width: 560px) {
+  .footer-logo {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 560px) {
+  .social-media-blog-icons {
+    margin-left: 250px;
+    padding-left: 510px;
+    display: inline-block;
+  }
+}
+
+@media (min-width: 560px) {
+  .footer-button {
+    display: inline-block;
+    padding-left: 145px;
+    position: relative;
+  }
+}
+
+.btn-sm {
+  border-radius: 10rem;
+  margin: 0;
+}
 /*.inner-services-container {*/
   /*padding-top: 35px;*/
   /*padding-bottom: 25px;*/
@@ -126,11 +214,6 @@ font-family: "Palatino Linotype", "Lucida Fax", serif;
   /*}*/
 /*}*/
 
-.services-title {
-  padding-top: 35px;
-  padding-bottom: 25px;
-  font-family: "Palatino Linotype", "Lucida Fax", serif;
-}
 
 /*.services-list {*/
   /*font-family: "Calibri", serif;*/
