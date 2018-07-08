@@ -1,7 +1,5 @@
 div nav.custom-navbar-text.bg-light.navbar-light#nav{
   background-color: white !important;
-  padding-left: 5px;
-  padding-right: 5px;
 }
 
 .custom-navbar-text a {
@@ -84,7 +82,11 @@ p {
   font-family: "Palatino Linotype", "Lucida Fax", serif;
 }
 
-.btn {
+.center{
+  margin-top: 35px;
+}
+
+.btn-primary {
   margin-top: 20px;
 }
 
@@ -98,16 +100,17 @@ p {
   .card-deck {
     max-width: 1438px;
     padding-bottom: 45px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: auto;
+    display: flex;
+    width: 75%;
   }
 }
 
-
 .services {
   position: relative;
-  padding-top: 55px;
-  margin-bottom: 25px;
+  padding-top: 85px;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
 }
 
 
@@ -122,7 +125,7 @@ p {
   height: 100%;
   opacity : 0.2;
   z-index: -1;
-  margin-top: 45px;
+  margin-top: 40px;
 }
 
 
@@ -152,41 +155,106 @@ p {
 }
 
 @media (min-width: 760px) {
-  .sit-info-container {
-    padding-top: 95px;
-    padding-left: 110px;
-    padding-right: 80px;
-    padding-bottom: 50px;
-    margin-top: 25px;
+  .footer-container-columns {
+    margin: 0 auto;
+    padding-left: 10px;
   }
 }
 
-@media (min-width: 560px) {
+.mapouter {
+  padding-top: 5.5%;
+}
+
+@media (min-width: 760px) {
+  .footer-contact {
+    font-family: "Calibri", serif;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-left: 50px;
+  }
+}
+
+@media (min-width: 760px) {
+  .footer-contact-info {
+    font-family: "Calibri", serif;
+    font-size: 17px;
+    padding-left: 50px;
+  }
+}
+
+@media (min-width: 760px) {
+  .footer-container {
+    position: relative;
+    padding-top: 75px;
+    padding-bottom: 50px;
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 760px) {
+  .footer-container:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("BACKGROUND_PHOTO_OPTIONS/white-1866105_1920.jpg");
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    z-index: -1;
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 760px) {
   .footer-logo {
     display: inline-block;
+    float: left;
+    padding-left: 10%;
+
   }
 }
 
-@media (min-width: 560px) {
+@media (min-width: 760px) {
   .social-media-blog-icons {
-    margin-left: 250px;
-    padding-left: 510px;
+    position: absolute;
+    right: 5%;
+    top: 75%;
     display: inline-block;
   }
 }
 
-@media (min-width: 560px) {
-  .footer-button {
+@media (min-width: 760px) {
+  .footer-button-to-top {
     display: inline-block;
-    padding-left: 145px;
+    left: 70%;
     position: relative;
   }
 }
 
-.btn-sm {
-  border-radius: 10rem;
-  margin: 0;
+@media (min-width: 760px) {
+  .btn-secondary {
+    border-radius: 10rem;
+    padding: 5px;
+  }
 }
+
+@media (min-width: 760px) {
+  .btn {
+    margin: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
 /*.inner-services-container {*/
   /*padding-top: 35px;*/
   /*padding-bottom: 25px;*/
