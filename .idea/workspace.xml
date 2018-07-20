@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f5ef370-f0e5-42cc-ab5b-ce8c13db73b1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BACKGROUND_PHOTO_OPTIONS/concrete-1646788_1280.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,20 +20,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
+            <state relative-caret-position="242">
+              <caret line="97" column="66" lean-forward="true" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="66" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="164" column="18" selection-start-line="164" selection-start-column="18" selection-end-line="164" selection-end-column="18" />
+            <state relative-caret-position="521">
+              <caret line="172" column="2" lean-forward="true" selection-start-line="172" selection-start-column="2" selection-end-line="172" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -47,8 +50,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1530">
-              <caret line="107" selection-start-line="107" selection-end-line="107" />
+            <state relative-caret-position="2057">
+              <caret line="138" selection-start-line="138" selection-end-line="138" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -82,7 +85,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="655">
+            <state relative-caret-position="1904">
               <caret line="112" column="7" selection-start-line="112" selection-start-column="7" selection-end-line="112" selection-end-column="7" />
             </state>
           </provider>
@@ -99,36 +102,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>boxe</find>
-      <find>medi</find>
-      <find>col</find>
-      <find>background</find>
-      <find>page</find>
-      <find>cont</find>
-      <find>inner-col-s</find>
-      <find>title</find>
-      <find>services-col</find>
-      <find>padd</find>
-      <find>inner-s</find>
-      <find>services-</find>
-      <find>attac</find>
-      <find>servic</find>
-      <find>main</find>
-      <find>font</find>
-      <find>h2</find>
-      <find>my</find>
-      <find>data</find>
-      <find>myt</find>
-      <find>jqu</find>
-      <find>data-t</find>
-      <find>#my</find>
-      <find>row</find>
-      <find>nav</find>
       <find>services</find>
       <find>#</find>
       <find>center</find>
       <find>home</find>
       <find>target</find>
+      <find>img</find>
+      <find>tit</find>
+      <find>url</find>
+      <find>card</find>
+      <find>content</find>
+      <find>35</find>
+      <find>container</find>
+      <find>no-gu</find>
+      <find>footer-contact</find>
+      <find>active</find>
+      <find>col-2</find>
+      <find>title</find>
+      <find>blurb</find>
+      <find>text-</find>
+      <find>testimonials</find>
+      <find>text</find>
+      <find>margin: a</find>
+      <find>shadow</find>
+      <find>overflow</find>
+      <find>block</find>
+      <find>background-image</find>
+      <find>padding</find>
+      <find>row</find>
+      <find>margin: 15</find>
+      <find>overfl</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -144,10 +147,10 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/dist/js/main.js" />
         <option value="$PROJECT_DIR$/src/.gitignore" />
-        <option value="$PROJECT_DIR$/src/js/main.js" />
         <option value="$PROJECT_DIR$/src/index.html" />
-        <option value="$PROJECT_DIR$/main.css" />
+        <option value="$PROJECT_DIR$/src/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/main.css" />
       </list>
     </option>
   </component>
@@ -162,10 +165,10 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="31" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="30" />
     <option name="width" value="1254" />
-    <option name="height" value="1391" />
+    <option name="height" value="1392" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -173,7 +176,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,6 +187,18 @@
               <item name="dads_website" type="b2602c69:ProjectViewProjectNode" />
               <item name="dads_website" type="462c0819:PsiDirectoryNode" />
               <item name="BACKGROUND_PHOTO_OPTIONS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dads_website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dads_website" type="462c0819:PsiDirectoryNode" />
+              <item name="BACKGROUND_PHOTO_OPTIONS" type="462c0819:PsiDirectoryNode" />
+              <item name="Options" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dads_website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dads_website" type="462c0819:PsiDirectoryNode" />
+              <item name="BACKGROUND_PHOTO_OPTIONS" type="462c0819:PsiDirectoryNode" />
+              <item name="Pics of Dad" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dads_website" type="b2602c69:ProjectViewProjectNode" />
@@ -206,6 +220,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -258,15 +273,16 @@
       <workItem from="1528579805547" duration="1250000" />
       <workItem from="1528583027096" duration="42341000" />
       <workItem from="1528989115056" duration="78998000" />
-      <workItem from="1530742376417" duration="47609000" />
+      <workItem from="1530742376417" duration="93961000" />
+      <workItem from="1532022987434" duration="13120000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186345000" />
+    <option name="totallyTimeSpent" value="245817000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
+    <frame x="-7" y="-7" width="1455" height="935" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15752949" />
@@ -487,16 +503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BACKGROUND_PHOTO_OPTIONS/blank-profile-picture-973460_1280.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -509,27 +515,35 @@
     <entry file="file://$PROJECT_DIR$/SOCIAL MEDIA ICONS/if_linkedin_456101_2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/SOCIAL MEDIA ICONS/wallpaper-for-facebook-profile-photo_2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/SOCIAL MEDIA ICONS/wallpaper-for-facebook-profile-photo_2.jpg" />
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
+        <state relative-caret-position="1904">
           <caret line="112" column="7" selection-start-line="112" selection-start-column="7" selection-end-line="112" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.css">
+    <entry file="file://$PROJECT_DIR$/src/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="164" column="18" selection-start-line="164" selection-start-column="18" selection-end-line="164" selection-end-column="18" />
+        <state relative-caret-position="2057">
+          <caret line="138" selection-start-line="138" selection-end-line="138" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
+        <state relative-caret-position="242">
+          <caret line="97" column="66" lean-forward="true" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="172" column="2" lean-forward="true" selection-start-line="172" selection-start-column="2" selection-end-line="172" selection-end-column="28" />
         </state>
       </provider>
     </entry>
