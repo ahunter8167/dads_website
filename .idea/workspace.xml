@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f5ef370-f0e5-42cc-ab5b-ce8c13db73b1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BACKGROUND_PHOTO_OPTIONS/concrete-1646788_1280.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,8 +20,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="97" column="66" lean-forward="true" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="66" />
+            <state relative-caret-position="446">
+              <caret line="43" column="48" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -32,8 +29,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="172" column="2" lean-forward="true" selection-start-line="172" selection-start-column="2" selection-end-line="172" selection-end-column="28" />
+            <state relative-caret-position="306">
+              <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -102,12 +99,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>services</find>
-      <find>#</find>
-      <find>center</find>
-      <find>home</find>
-      <find>target</find>
-      <find>img</find>
       <find>tit</find>
       <find>url</find>
       <find>card</find>
@@ -132,6 +123,12 @@
       <find>row</find>
       <find>margin: 15</find>
       <find>overfl</find>
+      <find>padding: 18</find>
+      <find>.container</find>
+      <find>p</find>
+      <find>h1</find>
+      <find>h2</find>
+      <find>tran</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -165,10 +162,10 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="30" />
-    <option name="width" value="1254" />
-    <option name="height" value="1392" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1069" />
+    <option name="width" value="1100" />
+    <option name="height" value="1391" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -274,15 +271,15 @@
       <workItem from="1528583027096" duration="42341000" />
       <workItem from="1528989115056" duration="78998000" />
       <workItem from="1530742376417" duration="93961000" />
-      <workItem from="1532022987434" duration="13120000" />
+      <workItem from="1532022987434" duration="25766000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="245817000" />
+    <option name="totallyTimeSpent" value="258463000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1455" height="935" extended-state="7" />
+    <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15752949" />
@@ -535,15 +532,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="97" column="66" lean-forward="true" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="66" />
+        <state relative-caret-position="446">
+          <caret line="43" column="48" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="172" column="2" lean-forward="true" selection-start-line="172" selection-start-column="2" selection-end-line="172" selection-end-column="28" />
+        <state relative-caret-position="306">
+          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
         </state>
       </provider>
     </entry>
