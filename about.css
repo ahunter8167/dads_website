@@ -1,0 +1,325 @@
+body {
+  overflow-x: hidden !important;
+}
+.container {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+div nav.custom-navbar-text.bg-light.navbar-light#nav{
+  background-color: rgba(220, 220, 220, 0.3) !important;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.custom-navbar-text a {
+  color: black;
+  display: block;
+  font-family: "Raleway", serif;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+}
+
+.menu-title {
+  margin-left: 33%;
+}
+
+.menu-item {
+  padding-right: 15px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-color: #373B44;
+  height: 100vh;
+
+&:nth-of-type(2n) {
+   background-color: #FE4B74;
+ }
+}
+
+.intro {
+  height: 80vh;
+  padding: 0;
+}
+
+.content {
+  display: table-cell;
+  vertical-align: inherit;
+  background-image: url("BACKGROUND_PHOTO_OPTIONS/Banner Images/looking-left-man-working-in-home-office-280358621_large-size.jpg");
+  background-repeat: inherit;
+  position: relative;
+}
+
+.mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  opacity:  0.4;
+}
+
+.main-title-content, .main-title-banner {
+  position: relative;
+}
+
+
+.row.no-gutters {
+  text-align: center;
+  padding-bottom: 45px;
+}
+
+@media (min-width: 560px){
+  .container {
+    max-width: 1440px;
+  }
+}
+
+
+@media (min-width: 560px) {
+  .main-title {
+    color: black;
+    display: block;
+    font-family: "PT Serif", sans-serif;
+    font-size: 68px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 5% 10% 2% 10%;
+  }
+}
+
+.main-title-content {
+  color: black;
+  display: block;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 30% 0 30%;
+  /*margin: 0 10px 0 10px;*/
+}
+
+ul.breadcrumbs {
+  padding: 0;
+}
+
+.cms-breadcrumb .breadcrumbs li {
+  display: inline-block;
+  font-family: Raleway, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  padding: 0 14px;
+  color: dimgray;
+  position: relative;
+}
+
+.cms-breadcrumb .breadcrumbs li a {
+  color: black ;
+}
+
+.cms-breadcrumb .breadcrumbs li a:after {
+  content: "|";
+  font-size: 12px;
+  position: absolute;
+  right: -3px;
+  top: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dark-background {
+  content : "";
+  display: block;
+  position: absolute;
+  background-image: url("BACKGROUND_PHOTO_OPTIONS/white-1866105_1920.jpg");
+  width: 100%;
+  height: 105%;
+  opacity : 0.3;
+  z-index: -1;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+
+.footer-area  {
+  margin-top: 5%;
+}
+@media (min-width: 760px) {
+  .footer-container-columns {
+    margin: 0 auto;
+    padding: auto;
+  }
+}
+
+.dan-image {
+  margin-top: 5.5%;
+  margin-left: 25%;
+}
+
+.mapouter {
+  padding-top: 5.5%;
+}
+
+@media (min-width: 760px) {
+  .footer-contact {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 30px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (min-width: 760px) {
+  .footer-contact-info {
+    color: grey;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    line-height: 23px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (min-width: 760px) {
+  .footer-container {
+    position: relative;
+    padding-top: 65px;
+    padding-bottom: 50px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 760px) {
+  .footer-container:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("BACKGROUND_PHOTO_OPTIONS/white-1866105_1920.jpg");
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    z-index: -1;
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 760px) {
+  .footer-logo {
+    display: inline-block;
+    float: left;
+    padding-left: 5%;
+  }
+}
+
+@media (min-width: 760px) {
+  .social-media-blog-icons {
+    position: absolute;
+    right: 5%;
+    top: 75%;
+    display: inline-flex;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+}
+
+.linkedin-button{
+  padding: 3px 3px;
+}
+
+.linkedin-button:hover {
+  opacity: 0.6;
+  /*box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24);*/
+}
+.blog-button {
+  padding: 3px 3px;
+}
+
+.blog-button:hover {
+  opacity: 0.6;
+  /*box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24);*/
+}
+.portfolio-button {
+  padding: 3px 3px;
+}
+
+.portfolio-button:hover {
+  opacity: 0.6;
+  /*box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24);*/
+}
+
+
+.footer-button-to-top {
+  position: relative;
+  text-align: right;
+  margin-right: 5px;
+}
+
+.back-to-top:hover {
+  opacity: 0.6;
+}
+@media (min-width: 760px) {
+  .button .fa-chevron-up {
+    /*background: none;*/
+    /*margin: 0;*/
+    /*position: fixed;*/
+    /*display: inline-block;*/
+    /*bottom: 0;*/
+    /*right: 0;*/
+    /*width: 70px;*/
+    /*height: 70px;*/
+    /*z-index: 100;*/
+    /*display: none;*/
+    /*text-decoration: none;*/
+    color: #ffffff;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+}
