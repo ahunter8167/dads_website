@@ -335,19 +335,19 @@ section {
 }
 @media (min-width: 760px) {
   .footer-container-columns {
-    margin: 0 auto;
+    margin: 0 5% 0 5%;
     padding: auto;
   }
 }
 
-.dan-image {
-  margin-top: 5.5%;
-  margin-left: 25%;
-}
+/*.dan-image {*/
+  /*margin-top: 5.5%;*/
+  /*margin-left: 25%;*/
+/*}*/
 
-.mapouter {
-  padding-top: 5.5%;
-}
+/*.mapouter {*/
+  /*padding-top: 5.5%;*/
+
 
 @media (min-width: 760px) {
   .footer-contact {
@@ -356,9 +356,9 @@ section {
     font-size: 18px;
     font-weight: 800;
     line-height: 30px;
-    padding-top: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 35px;
+    padding-left: 50px;
+    padding-right: 30px;
   }
 }
 
@@ -368,8 +368,8 @@ section {
     font-family: "Raleway", sans-serif;
     font-size: 15px;
     line-height: 23px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
   }
 }
 
@@ -397,6 +397,7 @@ section {
     opacity: 0.2;
     z-index: -1;
     margin-top: 30px;
+    padding-bottom: 20px;
   }
 }
 

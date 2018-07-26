@@ -1,9 +1,9 @@
 body {
-  overflow-x: hidden !important;
+  overflow-x: hidden;
 }
 .container {
-  max-width: 100% !important;
-  overflow-x: hidden !important;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 div nav.custom-navbar-text.bg-light.navbar-light#nav{
@@ -13,20 +13,25 @@ div nav.custom-navbar-text.bg-light.navbar-light#nav{
 }
 
 .custom-navbar-text a {
-  color: black;
+  color: rgb(34, 34, 34);
   display: block;
   font-family: "Raleway", serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   position: relative;
 }
 
 .menu-title {
-  margin-left: 33%;
+  margin-left: 3%;
 }
 
 .menu-item {
   padding-right: 15px;
+}
+
+.text-left {
+  text-align: left !important;
+  padding-right: 55%;
 }
 
 * {
@@ -89,7 +94,7 @@ section {
 
 @media (min-width: 560px) {
   .main-title {
-    color: black;
+    color: rgb(34, 34, 34);
     display: block;
     font-family: "PT Serif", sans-serif;
     font-size: 68px;
@@ -100,7 +105,7 @@ section {
 }
 
 .main-title-content {
-  color: black;
+  color: rgb(34, 34, 34);
   display: block;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -117,7 +122,7 @@ ul.breadcrumbs {
   display: inline-block;
   font-family: Raleway, sans-serif;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1;
   padding: 0 14px;
   color: dimgray;
@@ -125,7 +130,7 @@ ul.breadcrumbs {
 }
 
 .cms-breadcrumb .breadcrumbs li a {
-  color: black ;
+  color: rgb(34, 34, 34) ;
 }
 
 .cms-breadcrumb .breadcrumbs li a:after {
@@ -136,10 +141,55 @@ ul.breadcrumbs {
   top: 1px;
 }
 
+.mission-statement h2 {
+  color: rgb(40, 40, 40);
+  font-family: "PT Serif", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 10%;
+  padding-top: 20%;
+}
+
+.mission-statement p{
+  color: rgb(40, 40, 40);
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  padding-left: 10%;
+  padding-top: 2%;
+}
+
+.meet-dan-container h2 {
+  color: rgb(40, 40, 40);
+  font-family: "PT Serif", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 10%;
+  padding-top: 10%;
+}
+
+.dan-image {
+  padding-left: 10%;
+  padding-top: 2%;
+}
 
 
+.meet-title h3 {
+  color: rgb(40, 40, 40);
+  font-family: "PT Serif", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 10%;
+  padding-top: 2%;
+}
 
-
+.meet-cert-title p {
+  color: rgb(40, 40, 40);
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  padding-left: 10%;
+}
 
 
 
@@ -187,29 +237,30 @@ ul.breadcrumbs {
 }
 @media (min-width: 760px) {
   .footer-container-columns {
-    margin: 0 auto;
+    margin: 0 5% 0 5%;
     padding: auto;
   }
 }
 
-.dan-image {
-  margin-top: 5.5%;
-  margin-left: 25%;
-}
+/*.dan-image {*/
+/*margin-top: 5.5%;*/
+/*margin-left: 25%;*/
+/*}*/
 
-.mapouter {
-  padding-top: 5.5%;
-}
+/*.mapouter {*/
+/*padding-top: 5.5%;*/
+
 
 @media (min-width: 760px) {
   .footer-contact {
+    color: rgb(34, 34, 34);
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 800;
     line-height: 30px;
-    padding-top: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 35px;
+    padding-left: 50px;
+    padding-right: 30px;
   }
 }
 
@@ -219,8 +270,8 @@ ul.breadcrumbs {
     font-family: "Raleway", sans-serif;
     font-size: 15px;
     line-height: 23px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
   }
 }
 
@@ -248,6 +299,7 @@ ul.breadcrumbs {
     opacity: 0.2;
     z-index: -1;
     margin-top: 30px;
+    padding-bottom: 20px;
   }
 }
 
