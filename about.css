@@ -146,8 +146,9 @@ ul.breadcrumbs {
   font-family: "PT Serif", sans-serif;
   font-size: 30px;
   font-weight: bold;
+  padding-top: 10%;
   padding-left: 10%;
-  padding-top: 20%;
+  padding-right: 10%;
 }
 
 .mission-statement p{
@@ -155,31 +156,59 @@ ul.breadcrumbs {
   font-family: "Raleway", sans-serif;
   font-size: 20px;
   font-weight: normal;
-  padding-left: 10%;
+  padding-left: 20%;
+  padding-right: 20%;
   padding-top: 2%;
+  word-wrap: break-word;
 }
 
-.meet-dan-container h2 {
+/*.col {*/
+  /*overflow: hidden;*/
+/*}*/
+
+/*.section-background {*/
+  /*content : "";*/
+  /*display: block;*/
+  /*position: relative;*/
+  /*background-image: url("BACKGROUND_PHOTO_OPTIONS/white-1866105_1920.jpg");*/
+  /*width: 100%;*/
+  /*z-index: -1;*/
+/*}*/
+
+.meet-dan-container {
   color: rgb(40, 40, 40);
   font-family: "PT Serif", sans-serif;
   font-size: 30px;
   font-weight: bold;
-  padding-left: 10%;
-  padding-top: 10%;
+  margin-top: 5%;
+  padding: 10% 0 5% 10%;
+  position: relative;
+
 }
 
-.dan-image {
-  padding-left: 10%;
-  padding-top: 2%;
-}
 
+@media (min-width: 760px) {
+  .meet-dan-container:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("BACKGROUND_PHOTO_OPTIONS/white-1866105_1920.jpg");
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    z-index: -1;
+    margin-top: 30px;
+    padding-bottom: 20px;
+  }
+}
 
 .meet-title h3 {
   color: rgb(40, 40, 40);
   font-family: "PT Serif", sans-serif;
   font-size: 20px;
   font-weight: bold;
-  padding-left: 10%;
   padding-top: 2%;
 }
 
@@ -188,7 +217,6 @@ ul.breadcrumbs {
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   font-weight: normal;
-  padding-left: 10%;
 }
 
 
@@ -307,8 +335,13 @@ ul.breadcrumbs {
   .footer-logo {
     display: inline-block;
     float: left;
-    padding-left: 5%;
+    padding-left: 40%;
   }
+}
+
+.footer-logo-img {
+  display: block;
+  margin: 0 auto;
 }
 
 @media (min-width: 760px) {
