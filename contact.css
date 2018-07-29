@@ -1,0 +1,414 @@
+body {
+  overflow-x: hidden;
+}
+.container {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+div nav.custom-navbar-text.bg-light.navbar-light#nav{
+  background-color: rgba(220, 220, 220, 0.3) !important;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 1%;
+  text-align: left !important;
+}
+
+.custom-navbar-text a {
+  color: rgb(34, 34, 34);
+  display: block;
+  font-family: "Raleway", serif;
+  font-size: 18px;
+  font-weight: bold;
+  position: relative;
+}
+
+.navbar {
+  align-items: center;
+  justify-content: flex-start;
+}
+.menu-title {
+  margin-left: 30px;
+  float: left;
+}
+
+.menu-item {
+  margin-left: 30px;
+  float: left;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-color: #373B44;
+  height: 100vh;
+
+&:nth-of-type(2n) {
+   background-color: #FE4B74;
+ }
+}
+
+.intro {
+  height: 80vh;
+  padding: 0;
+}
+
+.content {
+  display: table-cell;
+  vertical-align: inherit;
+  background-image: url("BACKGROUND_PHOTO_OPTIONS/Banner Images/stock-photo-business-man-using-smart-phone-in-the-office-248048878_large.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center 0;
+  background-size: 100% auto;
+}
+
+.mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  opacity:  0.4;
+}
+
+.main-title-content, .main-title-banner {
+  position: relative;
+}
+
+
+.row.no-gutters {
+  text-align: center;
+  padding-bottom: 45px;
+}
+
+@media (min-width: 560px){
+  .container {
+    max-width: 1440px;
+  }
+}
+
+
+@media (min-width: 560px) {
+  .main-title {
+    color: rgb(34, 34, 34);
+    display: block;
+    font-family: "PT Serif", sans-serif;
+    font-size: 68px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 5% 10% 2% 10%;
+  }
+}
+
+.main-title-content {
+  color: rgb(34, 34, 34);
+  display: block;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 30% 0 30%;
+  /*margin: 0 10px 0 10px;*/
+}
+
+ul.breadcrumbs {
+  padding: 0;
+}
+
+.cms-breadcrumb .breadcrumbs li {
+  display: inline-block;
+  font-family: Raleway, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+  padding: 0 14px;
+  color: dimgray;
+  position: relative;
+}
+
+.cms-breadcrumb .breadcrumbs li a {
+  color: rgb(34, 34, 34) ;
+}
+
+.cms-breadcrumb .breadcrumbs li a:after {
+  content: "|";
+  font-size: 12px;
+  position: absolute;
+  right: -3px;
+  top: 1px;
+}
+
+.mission-statement h2 {
+  color: rgb(40, 40, 40);
+  font-family: "PT Serif", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.mission-statement p{
+  color: rgb(40, 40, 40);
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 2%;
+  word-wrap: break-word;
+}
+
+/*.col {*/
+/*overflow: hidden;*/
+/*}*/
+
+/*.section-background {*/
+/*content : "";*/
+/*display: block;*/
+/*position: relative;*/
+/*background-image: url("BACKGROUND_PHOTO_OPTIONS/white-1866105_1920.jpg");*/
+/*width: 100%;*/
+/*z-index: -1;*/
+/*}*/
+
+.meet-dan-container {
+  color: rgb(40, 40, 40);
+  font-family: "PT Serif", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 5%;
+  padding: 10% 0 5% 10%;
+  position: relative;
+
+}
+
+
+@media (min-width: 760px) {
+  .meet-dan-container:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("BACKGROUND_PHOTO_OPTIONS/white-1866105_1920.jpg");
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    z-index: -1;
+    margin-top: 30px;
+    padding-bottom: 20px;
+  }
+}
+
+.meet-title h3 {
+  color: rgb(40, 40, 40);
+  font-family: "PT Serif", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 5%;
+}
+
+.meet-cert-title p {
+  color: rgb(40, 40, 40);
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.meet-dan-content {
+  padding-right: 20%;
+  padding-left: 5%;
+}
+.meet-dan-info p {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  padding-top: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dark-background {
+  content : "";
+  display: block;
+  position: absolute;
+  background-image: url("BACKGROUND_PHOTO_OPTIONS/white-1866105_1920.jpg");
+  width: 100%;
+  height: 105%;
+  opacity : 0.3;
+  z-index: -1;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+
+.footer-area  {
+  margin-top: 5%;
+}
+@media (min-width: 760px) {
+  .footer-container-columns {
+    margin: 0 5% 0 5%;
+    padding: auto;
+  }
+}
+
+@media (min-width: 760px) {
+  .footer-contact {
+    color: rgb(34, 34, 34);
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 30px;
+    padding-top: 35px;
+    padding-left: 50px;
+    padding-right: 30px;
+  }
+}
+
+@media (min-width: 760px) {
+  .footer-contact-info {
+    color: grey;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    line-height: 23px;
+    padding-left: 50px;
+    padding-right: 30px;
+  }
+}
+
+@media (min-width: 760px) {
+  .footer-container {
+    position: relative;
+    padding-top: 65px;
+    padding-bottom: 50px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 760px) {
+  .footer-container:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("BACKGROUND_PHOTO_OPTIONS/white-1866105_1920.jpg");
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    z-index: -1;
+    margin-top: 30px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (min-width: 760px) {
+  .footer-logo {
+    display: inline-block;
+    float: left;
+    padding-left: 40%;
+  }
+}
+
+.footer-logo-img {
+  display: block;
+  margin: 0 auto;
+}
+
+@media (min-width: 760px) {
+  .social-media-blog-icons {
+    position: absolute;
+    right: 5%;
+    top: 75%;
+    display: inline-flex;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+}
+
+.linkedin-button{
+  padding: 3px 3px;
+}
+
+.linkedin-button:hover {
+  opacity: 0.6;
+  /*box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24);*/
+}
+.blog-button {
+  padding: 3px 3px;
+}
+
+.blog-button:hover {
+  opacity: 0.6;
+  /*box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24);*/
+}
+.portfolio-button {
+  padding: 3px 3px;
+}
+
+.portfolio-button:hover {
+  opacity: 0.6;
+  /*box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24);*/
+}
+
+
+.footer-button-to-top {
+  position: relative;
+  text-align: right;
+  margin-right: 5px;
+}
+
+.back-to-top:hover {
+  opacity: 0.6;
+}
+@media (min-width: 760px) {
+  .button .fa-chevron-up {
+    /*background: none;*/
+    /*margin: 0;*/
+    /*position: fixed;*/
+    /*display: inline-block;*/
+    /*bottom: 0;*/
+    /*right: 0;*/
+    /*width: 70px;*/
+    /*height: 70px;*/
+    /*z-index: 100;*/
+    /*display: none;*/
+    /*text-decoration: none;*/
+    color: #ffffff;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+}

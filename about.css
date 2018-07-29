@@ -10,6 +10,8 @@ div nav.custom-navbar-text.bg-light.navbar-light#nav{
   background-color: rgba(220, 220, 220, 0.3) !important;
   padding-top: 0;
   padding-bottom: 0;
+  margin-top: 1%;
+  text-align: left !important;
 }
 
 .custom-navbar-text a {
@@ -21,17 +23,18 @@ div nav.custom-navbar-text.bg-light.navbar-light#nav{
   position: relative;
 }
 
+.navbar {
+  align-items: center;
+  justify-content: flex-start;
+}
 .menu-title {
-  margin-left: 3%;
+  margin-left: 30px;
+  float: left;
 }
 
 .menu-item {
-  padding-right: 15px;
-}
-
-.text-left {
-  text-align: left !important;
-  padding-right: 55%;
+  margin-left: 30px;
+  float: left;
 }
 
 * {
@@ -61,8 +64,10 @@ section {
   display: table-cell;
   vertical-align: inherit;
   background-image: url("BACKGROUND_PHOTO_OPTIONS/Banner Images/looking-left-man-working-in-home-office-280358621_large-size.jpg");
-  background-repeat: inherit;
+  background-repeat: no-repeat;
   position: relative;
+  background-position: center 0;
+  background-size: 100% auto;
 }
 
 .mask {
@@ -209,7 +214,7 @@ ul.breadcrumbs {
   font-family: "PT Serif", sans-serif;
   font-size: 20px;
   font-weight: bold;
-  padding-top: 2%;
+  padding-top: 5%;
 }
 
 .meet-cert-title p {
@@ -219,8 +224,16 @@ ul.breadcrumbs {
   font-weight: normal;
 }
 
-
-
+.meet-dan-content {
+  padding-right: 20%;
+  padding-left: 5%;
+}
+.meet-dan-info p {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  padding-top: 2%;
+}
 
 
 
@@ -269,15 +282,6 @@ ul.breadcrumbs {
     padding: auto;
   }
 }
-
-/*.dan-image {*/
-/*margin-top: 5.5%;*/
-/*margin-left: 25%;*/
-/*}*/
-
-/*.mapouter {*/
-/*padding-top: 5.5%;*/
-
 
 @media (min-width: 760px) {
   .footer-contact {
