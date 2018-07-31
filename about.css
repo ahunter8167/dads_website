@@ -167,19 +167,6 @@ ul.breadcrumbs {
   word-wrap: break-word;
 }
 
-/*.col {*/
-  /*overflow: hidden;*/
-/*}*/
-
-/*.section-background {*/
-  /*content : "";*/
-  /*display: block;*/
-  /*position: relative;*/
-  /*background-image: url("BACKGROUND_PHOTO_OPTIONS/white-1866105_1920.jpg");*/
-  /*width: 100%;*/
-  /*z-index: -1;*/
-/*}*/
-
 .meet-dan-container {
   color: rgb(40, 40, 40);
   font-family: "PT Serif", sans-serif;
@@ -276,6 +263,7 @@ ul.breadcrumbs {
 .footer-area  {
   margin-top: 5%;
 }
+
 @media (min-width: 760px) {
   .footer-container-columns {
     margin: 0 5% 0 5%;
