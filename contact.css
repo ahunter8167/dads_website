@@ -63,7 +63,7 @@ section {
 .content {
   display: table-cell;
   vertical-align: inherit;
-  background-image: url("BACKGROUND_PHOTO_OPTIONS/Banner Images/stock-photo-business-man-using-smart-phone-in-the-office-248048878_large.jpg");
+  background-image: url("BACKGROUND_PHOTO_OPTIONS/Banner Images/Banner_Contact shutterstock_248048878.jpg");
   background-repeat: no-repeat;
   position: relative;
   background-position: top center;
@@ -126,7 +126,7 @@ ul.breadcrumbs {
 .cms-breadcrumb .breadcrumbs li {
   display: inline-block;
   font-family: Raleway, sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 700;
   line-height: 1;
   padding: 0 14px;
