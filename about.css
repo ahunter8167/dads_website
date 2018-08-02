@@ -68,6 +68,8 @@ section {
   position: relative;
   background-position: center 0;
   background-size: 100% auto;
+  height: 640px;
+  width: 772px;
 }
 
 .mask {
