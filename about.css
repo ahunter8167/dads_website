@@ -211,6 +211,7 @@ ul.breadcrumbs {
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   font-weight: normal;
+  margin-bottom: 0;
 }
 
 .meet-dan-content {
@@ -223,25 +224,6 @@ ul.breadcrumbs {
   font-weight: normal;
   padding-top: 2%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .dark-background {
   content : "";
@@ -264,6 +246,7 @@ ul.breadcrumbs {
 
 .footer-area  {
   margin-top: 5%;
+  padding-top: 5%;
 }
 
 @media (min-width: 760px) {
