@@ -198,6 +198,10 @@ ul.breadcrumbs {
   }
 }
 
+.dan-image img{
+  border: solid dimgray 4px;
+}
+
 .meet-title h3 {
   color: rgb(40, 40, 40);
   font-family: "PT Serif", sans-serif;
