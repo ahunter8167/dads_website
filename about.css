@@ -197,7 +197,7 @@ ul.breadcrumbs {
 }
 
 .dan-image img{
-  border: solid dimgray 4px;
+  border: solid rgb(227, 230, 234) 4px;
 }
 
 .meet-title h3 {
@@ -219,7 +219,9 @@ ul.breadcrumbs {
 .meet-dan-content {
   padding-right: 20%;
   padding-left: 5%;
+  padding-top: 5%;
 }
+
 .meet-dan-info p {
   font-family: "Raleway", sans-serif;
   font-size: 16px;
@@ -310,9 +312,16 @@ ul.breadcrumbs {
   }
 }
 
+/*.dev-credits {*/
+  /*color: grey;*/
+  /*display: inline-block;*/
+  /*font-family: "Raleway", sans-serif;*/
+  /*font-size: 15px;*/
+/*}*/
+
 @media (min-width: 760px) {
   .footer-logo {
-    display: inline-block;
+    display: block;
     float: left;
     padding-left: 40%;
   }
