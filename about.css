@@ -177,9 +177,7 @@ ul.breadcrumbs {
   margin-top: 5%;
   padding: 10% 0 5% 10%;
   position: relative;
-
 }
-
 
 @media (min-width: 760px) {
   .meet-dan-container:after {
