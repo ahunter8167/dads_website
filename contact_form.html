@@ -30,7 +30,7 @@
              </div>
             <div class="form-column">
               <div class="form-content">
-              <form action="/action_page.php">
+              <form name="contactform" method="post" action="send_form_email.php">
 
                 <h2>Career Clinic Breakthrough</h2>
                <!--<label for="session_type">Please select which session type you are most interested in</label>-->
@@ -65,8 +65,8 @@
                <label for="other_position">"Other" position type</label>
                  <textarea id="other_position" name="subject" placeholder="Current position title.." style="height:45px"></textarea>
 
-                <label for="phone">Number of years in current position</label>
-                  <input type="text" id="position_years" name="position_years" placeholder="">
+                <label for="years">Number of years in current position</label>
+                  <input type="text" id="years" name="position_years" placeholder="">
 
                <label for="career_plan">Do you currently have a detailed career plan?</label>
                  <select id="career_plan" name="career_plan">
