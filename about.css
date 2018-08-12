@@ -117,7 +117,7 @@ section {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: bold;
-  padding: 0 30% 0 30%;
+  padding: 0 38% 0 38%;
   /*margin: 0 10px 0 10px;*/
 }
 
@@ -196,9 +196,19 @@ ul.breadcrumbs {
   }
 }
 
-.dan-image img{
+.dan-image  img{
   border: solid rgb(227, 230, 234) 4px;
 }
+
+.flex-container {
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .meet-title h3 {
   color: rgb(40, 40, 40);
