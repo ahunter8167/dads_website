@@ -4,10 +4,10 @@
 $field_fname = $field_lname = $field_email = $field_phone = $field_position = $field_other_position = $field_years = $field_career_plan = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-$field_fname = ( isset( $_POST['fname'] ) ) ? $_POST['fname'] : null;
-$field_lname = ( isset( $_POST['lname'] ) ) ? $_POST['lname'] : null;
-$field_email = ( isset( $_POST['email'] ) ) ? $_POST['email'] : null;
-$field_phone = ( isset( $_POST['phone'] ) ) ? $_POST['phone'] : null;
+$field_fname = ( isset( $_POST['firstname'] ) ) ? $_POST['firstname'] : null;
+$field_lname = ( isset( $_POST['lastname'] ) ) ? $_POST['lastname'] : null;
+$field_email = ( isset( $_POST['email_address'] ) ) ? $_POST['email_address'] : null;
+$field_phone = ( isset( $_POST['phone_number'] ) ) ? $_POST['phone_number'] : null;
 $field_position = ( isset( $_POST['position'] ) ) ? $_POST['position'] : null;
 $field_other_position = ( isset( $_POST['other_position'] ) ) ? $_POST['other_position'] : null;
 $field_years = ( isset( $_POST['years'] ) ) ? $_POST['years'] : null;
